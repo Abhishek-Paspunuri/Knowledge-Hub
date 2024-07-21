@@ -1,0 +1,52 @@
+.queCard{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 30px 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f9fa;
+}
+
+.queCardLeft{
+    justify-content: space-between;
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 6rem;
+    /* margin: 5px; */
+}
+
+.queCardRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    /* border: 1px solid black; */
+    height: 6rem;
+    /* margin: 5px; */
+}
+
+.title{
+    margin: 5px;
+    color: rgb(12, 95, 140);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.question{
+    font-size: 18px;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.queCardRight > h6{
+    margin-left: 10px;
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: gray;
+}
+
+.queCardRight > h6 > span{
+    color: rgb(179, 81, 81);
+}

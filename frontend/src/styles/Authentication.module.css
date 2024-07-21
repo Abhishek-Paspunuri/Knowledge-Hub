@@ -1,0 +1,45 @@
+.authenticationContainer{
+    display: flex;
+    background-color: #f2efef;
+    width: 65%;
+    position: relative;
+    left: 17%;
+    padding: 1%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.buttonsContainer{
+    margin-top: 8%;
+    display: flex;
+}
+
+.buttonsContainer button{
+    width: 20%;
+    height: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.login{
+    background-color: rgb(15, 102, 149);
+    color: #ffffff;
+    margin-right: 2%;
+    border: none;
+    margin-left: 5%;
+}
+
+.signup{
+    border: 1px solid rgb(15, 102, 149);
+    color: rgb(15, 102, 149);
+}
+
+.quote{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 60%;
+}

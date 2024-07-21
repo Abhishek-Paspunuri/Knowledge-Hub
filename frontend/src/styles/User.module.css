@@ -1,0 +1,14 @@
+.userContainer{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+}
+
+.queBlock{
+    font-size:medium;
+    margin-top: 40px;
+}

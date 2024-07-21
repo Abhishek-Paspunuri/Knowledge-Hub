@@ -1,0 +1,52 @@
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #fcfafa;
+    border-bottom: 1px solid #b8b8b8;
+    min-height: 60px;
+    height: 8vh;
+}
+
+.logoName{
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.navbarLinks{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: large;
+    color: #205a93;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.userInfo{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left: auto;
+    align-items: center;
+}
+
+.logoutBtn{
+    color: rgb(15, 102, 149);
+    background-color: #f0f7f8;
+    border: 2px solid rgb(15, 102, 149);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.logoutBtn:hover{
+    background-color: rgb(15, 102, 149);
+    color: #f0f7f8;
+}

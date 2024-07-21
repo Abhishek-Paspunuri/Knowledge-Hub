@@ -1,0 +1,9 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    background: rgba(21, 102, 146, 0.918);
+    /* background: linear-gradient(180deg, rgb(15, 102, 149) 35%, rgba(183, 242, 170, 1) 100%); */
+    padding: 20px;
+}

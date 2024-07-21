@@ -1,0 +1,142 @@
+.ansContainer{
+    width: 85%;
+    min-height: calc(92vh - 30px) ;
+    margin: 20px 30px 10px 30px;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+.ansHeader{
+    height: 40px;
+    /* border-bottom: 1px solid gray; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ansHeader > h6{
+    color: rgb(65, 159, 209);
+    font-weight: bold;
+    font-style: italic;
+    margin: 5px;
+}
+
+.ansHeader> h6 > span{
+    color: gray;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.queAnsBox{
+    padding: 5px;
+    margin-bottom: -10px;
+}
+
+.queAnsBox > h4{
+    color: rgb(12, 95, 140);
+    margin-top: 5px;
+}
+
+.queAnsBox > h5{
+    /* margin-left: 5px; */
+    color: rgb(88, 88, 88);
+    margin-top: 20px;
+}
+
+.ansBox{
+    width: 95%;
+    padding: 5px;
+    margin: 10px 5%;
+    /* border: 1px solid gray; */
+    /* border-bottom: 1px solid gray; */
+    overflow-y:auto;
+}
+
+.liner{
+    width: 2px;
+    /* height: 50px; */
+    background-color: rgb(88, 88, 88);
+    z-index: 1;
+}
+ 
+.linerBox{
+    position: relative;
+    top: 18px;
+    right: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(41, 131, 179);
+    z-index: 2;
+}
+
+.ansBlock{
+    margin: 10px 10px 20px 20px;
+}
+
+.ansStats{
+    display: flex;
+}
+
+.ansStats > h6{
+    font-size: small;
+    margin-left: 30px;
+    color: gray;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.ansForm{
+    /* width: 50%; */
+    margin: 30px 0px 0px 0px;
+    /* padding: 10px; */
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ansFormHeader{
+    display: flex;
+    height: 40px;
+    width: 100%;
+}
+
+.postBtn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(15, 102, 149);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.editBtn{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.h1{
+    background-color: rgb(249, 76, 76);
+}
+
+.convoEnded{
+    color: rgb(239, 181, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.alertIcon{
+    color: rgb(247, 231, 193);
+    width: 20%;
+    height: 10%;
+}

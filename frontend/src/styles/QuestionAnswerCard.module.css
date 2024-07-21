@@ -1,0 +1,76 @@
+.queCard {
+    /* display: flex; */
+    width: 100%;
+    padding: 5px;
+    /* border: 1px solid gray; */
+    /* border-radius: 5px; */
+    margin: 10px 0px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    /* background-color: #f7f9fa; */
+    border-bottom: 1px solid gray;
+}
+
+.queCardUp {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: gray;
+    /* border: 1px solid black; */
+    /* height: 6rem; */
+    /* margin: 5px; */
+}
+
+
+.title {
+    margin: 5px;
+    color: rgb(12, 95, 140);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.question {
+    font-size: 17px;
+    margin: 5px;
+    width: 97%;
+    /* margin-left: 25px; */
+}
+
+.view {
+    width: 3%;
+    color: gray;
+}
+
+
+.resumeConvoBtn {
+    background-color: rgb(254, 254, 237);
+    border: 1px solid rgb(249 199 26);
+    color: rgb(223, 180, 22);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 5px 0px 5px;
+}
+
+.resumeConvoBtn:hover{
+    background-color: rgb(249 199 26);
+    color: rgb(254, 254, 237);
+}
+
+.endConvoBtn{
+    background-color: rgb(250, 227, 227);
+    border: 1px solid rgb(243 120 120);
+    color: rgb(243 120 120);
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 5px 0px 5px;
+
+}
+
+.endConvoBtn:hover{
+    background-color: rgb(243 120 120);
+    color: white;
+}
